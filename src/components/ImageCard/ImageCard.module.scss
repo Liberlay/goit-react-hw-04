@@ -1,0 +1,15 @@
+.wrapper {
+  transition: 0.4s;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  .image {
+    border-radius: 8px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+}

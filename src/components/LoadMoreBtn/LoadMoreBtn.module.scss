@@ -1,0 +1,16 @@
+.container {
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #3747ac;
+  transition: 0.4s;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  .button {
+    font-size: 18px;
+    color: #fff;
+  }
+}

@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 80px;
+  background-color: #3747ac;
+
+  .form {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 230px;
+    border-radius: 8px;
+    background-color: #fff;
+
+    .button {
+      padding: 12px;
+      border-radius: 8px;
+      transition: 0.4s;
+
+      &:hover {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}

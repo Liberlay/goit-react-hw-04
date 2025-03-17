@@ -1,0 +1,23 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .modal {
+    inset: 0;
+    padding: 0;
+
+    .image {
+      border-radius: 8px;
+      width: 1000px;
+      height: 800px;
+      object-fit: cover;
+    }
+  }
+}
