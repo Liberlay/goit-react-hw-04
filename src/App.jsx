@@ -2,7 +2,7 @@ import { Toaster } from 'react-hot-toast'
 import { useEffect, useState } from 'react'
 import { getImages } from './utils/getImages'
 import Loader from './components/Loader/Loader'
-import SeacrhBar from './components/SeacrhBar/SeacrhBar'
+import SearchBar from './components/SeacrhBar/SeacrhBar'
 import ImageModal from './components/ImageModal/ImageModal'
 import LoadMoreBtn from './components/LoadMoreBtn/LoadMoreBtn'
 import ErrorMessage from './components/ErrorMessage/ErrorMessage'
@@ -60,7 +60,7 @@ export default function App() {
   return (
     <div className={styles.container}>
       <Toaster position="top-right" />
-      <SeacrhBar onSearch={onSearch} />
+      <SearchBar onSearch={onSearch} />
       {images.length > 0 && <ImageGallery images={images} onImageClick={onImageClick} />}
       {!isLoading && images.length > 0 && <LoadMoreBtn onLoadMore={onLoadMore} />}
       {isLoading && <Loader />}

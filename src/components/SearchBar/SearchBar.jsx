@@ -3,9 +3,9 @@ import { Field, Form, Formik } from 'formik'
 
 import { FaSearch } from 'react-icons/fa'
 
-import styles from './SeacrhBar.module.scss'
+import styles from './SearchBar.module.scss'
 
-export default function SeacrhBar({ onSearch }) {
+export default function SearchBar({ onSearch }) {
   return (
     <header className={styles.container}>
       <Formik
