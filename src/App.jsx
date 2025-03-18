@@ -13,7 +13,7 @@ import styles from './App.module.scss'
 export default function App() {
   const [images, setImages] = useState([])
   const [query, setQuery] = useState('')
-  const [page, setPage] = useState('1')
+  const [page, setPage] = useState(1)
   const [isLoading, setIsLoading] = useState(false)
   const [isError, setIsError] = useState(false)
   const [isModalOpen, setIsModalOpen] = useState(false)
